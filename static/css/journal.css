@@ -6,7 +6,8 @@
 html {
   background-color: #fbfbfb;
   color: #303030;
-  font-family: "Arvo", serif;
+  /*font-family: "Arvo", serif;*/
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem; }
   @media screen and (min-width: 800px) {
     html {
@@ -64,7 +65,7 @@ blockquote {
 
 a {
   border-bottom: 1px solid currentColor;
-  color: currentColor;
+  color: rgb(32, 201, 151);
   text-decoration: none; }
   a:hover {
     border-bottom-color: currentColor;
