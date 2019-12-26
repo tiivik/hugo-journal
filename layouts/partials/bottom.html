@@ -18,7 +18,7 @@
           {{- end }}
 
           {{ if isset .Site.Params "twitterusername" -}}
-          <a itemprop="sameAs" href="https://twitter.com/{{ .Site.Params.twitterUsername }}" title="Twitter">Twitter</a>🐦
+          <a itemprop="sameAs" href="https://twitter.com/{{ .Site.Params.twitterUsername }}" title="Twitter" target="_blank">Twitter</a>
           {{- end}}
 
           {{ if isset .Site.Params "gpg" -}}
